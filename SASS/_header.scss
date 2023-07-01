@@ -46,15 +46,18 @@ header {
   }
   .contenedor-subir {
     background-color: inherit;
-    button {
-        background-color: $color1a;
-    color: #ffffff;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    &:hover {
-        background-color:$color1b;
-    cursor: pointer;
-    }
+ 
   }
+}
+
+
+.boton-verde {
+    background-color: $color1a;
+color: #ffffff;
+padding: 8px 12px;
+border: none;
+border-radius: 4px;
+&:hover {
+    background-color:$color1b;
+cursor: pointer;
 }}

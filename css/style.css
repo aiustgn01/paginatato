@@ -48,14 +48,15 @@ header a p {
 header .contenedor-subir {
   background-color: inherit;
 }
-header .contenedor-subir button {
+
+.boton-verde {
   background-color: rgb(97, 181, 153);
   color: #ffffff;
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
 }
-header .contenedor-subir button:hover {
+.boton-verde:hover {
   background-color: rgb(85, 158, 134);
   cursor: pointer;
 }
@@ -171,6 +172,23 @@ header .contenedor-subir button:hover {
 }
 .contenedor-equipo-viejo .info-equipo p {
   background-color: rgba(105, 105, 105, 0);
+}
+
+.buscador-equipos {
+  display: flex;
+  position: sticky;
+  top: 5px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 5px;
+  width: fit-content;
+  justify-content: center;
+}
+.buscador-equipos input {
+  border-radius: 8px;
+}
+.buscador-equipos button {
+  margin-left: 5px;
 }
 
 .caja-login {
