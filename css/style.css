@@ -1,0 +1,253 @@
+header {
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  margin: none;
+  padding: 2px;
+}
+header .contenedor-logo {
+  display: flex;
+  background-color: inherit;
+}
+header .contenedor-logo .logo-imagen {
+  height: 60px;
+  width: 50px;
+  background-color: inherit;
+  margin-right: 10px;
+}
+header .contenedor-logo .logo-texto {
+  background-color: inherit;
+}
+header .contenedor-botones {
+  display: flex;
+  background-color: inherit;
+}
+header .contenedor-botones a {
+  background-color: inherit;
+}
+header .contenedor-botones .boton-header {
+  padding-left: 10px;
+  background-color: inherit;
+}
+header .contenedor-cuenta {
+  background-color: inherit;
+}
+header .contenedor-cuenta strong {
+  background-color: inherit;
+}
+header .contenedor-cuenta p {
+  background-color: inherit;
+}
+header a {
+  background-color: inherit;
+}
+header a p {
+  background-color: inherit;
+}
+header .contenedor-subir {
+  background-color: inherit;
+}
+header .contenedor-subir button {
+  background-color: grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  background-color: rgb(195, 195, 195);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contenedor-equipos-nuevos {
+  height: 90vh;
+  overflow: scroll;
+  width: 90vw;
+  border: 4px solid aquamarine;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+  border-style: outset;
+  margin: auto;
+}
+.contenedor-equipos-nuevos .contenedor-equipo-nuevo {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  margin: 1%;
+  border: 5px lime solid;
+  border-radius: 8px;
+  background-color: rgba(0, 255, 8, 0.2);
+}
+.contenedor-equipos-nuevos .contenedor-equipo-nuevo .foto-equipo {
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  background-color: rgba(0, 255, 8, 0);
+}
+.contenedor-equipos-nuevos .contenedor-equipo-nuevo .foto-equipo img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgba(0, 255, 8, 0);
+}
+.contenedor-equipos-nuevos .contenedor-equipo-nuevo .info-equipo {
+  height: 60%;
+  width: 50%;
+  align-content: center;
+  display: flex;
+  background-color: rgba(0, 255, 8, 0);
+}
+.contenedor-equipos-nuevos .contenedor-equipo-nuevo .info-equipo p {
+  background-color: rgba(0, 255, 8, 0);
+}
+
+.contenedor-equipo-actual {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  margin: 1%;
+  border: 5px yellow solid;
+  border-radius: 8px;
+  background-color: rgba(255, 247, 0, 0.2);
+}
+.contenedor-equipo-actual .foto-equipo {
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  background-color: rgba(255, 247, 0, 0);
+}
+.contenedor-equipo-actual .foto-equipo img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgba(255, 247, 0, 0);
+}
+.contenedor-equipo-actual .info-equipo {
+  height: 60%;
+  width: 50%;
+  align-content: center;
+  display: flex;
+  background-color: rgba(255, 247, 0, 0);
+}
+.contenedor-equipo-actual .info-equipo p {
+  background-color: rgba(255, 247, 0, 0);
+}
+
+.contenedor-equipo-viejo {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  margin: 1%;
+  border: 5px gray solid;
+  border-radius: 8px;
+  background-color: rgba(105, 105, 105, 0.2);
+}
+.contenedor-equipo-viejo .foto-equipo {
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  background-color: rgba(105, 105, 105, 0);
+}
+.contenedor-equipo-viejo .foto-equipo img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgba(105, 105, 105, 0);
+}
+.contenedor-equipo-viejo .info-equipo {
+  height: 60%;
+  width: 50%;
+  align-content: center;
+  display: flex;
+  background-color: rgba(105, 105, 105, 0);
+}
+.contenedor-equipo-viejo .info-equipo p {
+  background-color: rgba(105, 105, 105, 0);
+}
+
+.caja-login {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 30vh;
+  width: 50vh;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-around;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.formulario-pc {
+  border: 2px solid black;
+  width: 50vh;
+  margin: auto;
+  margin-top: 20px;
+}
+.formulario-pc form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.formulario-pc form input, .formulario-pc form textarea {
+  padding: 15px;
+  width: 80%;
+  height: 10%;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.agenda {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.agenda h2 {
+  text-align: center;
+}
+
+.agenda .day {
+  margin-bottom: 20px;
+}
+
+.agenda .day .date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.agenda .day .activities {
+  margin-left: 20px;
+}
+
+.agenda .day .activities ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.agenda .day .activities textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  resize: vertical;
+}
+
+.agenda .day .activities button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.agenda .day .activities button:hover {
+  background-color: #45a049;
+}
+
+/*# sourceMappingURL=style.css.map */

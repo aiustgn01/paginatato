@@ -1,0 +1,25 @@
+header{ 
+    height: fit-content ;
+    display: flex;
+    justify-content: space-around;
+    background-color: $color1;
+    margin: none;
+    padding: 2px;
+.contenedor-logo{display: flex;
+    background-color: inherit;
+    .logo-imagen{
+        height: 60px;
+        width: 50px;
+        background-color: inherit;
+        margin-right: 10px;}
+        .logo-texto{background-color: inherit;}
+}
+.contenedor-botones{
+    display: flex;
+    background-color: inherit;
+    a{background-color: inherit;}
+    .boton-header{padding-left: 10px;background-color: inherit;}
+}
+.contenedor-cuenta{background-color: inherit;strong{background-color: inherit;}p{background-color: inherit;}} a{background-color: inherit; p{background-color: inherit;}}
+.contenedor-subir{background-color: inherit; button{background-color: grey; border-radius: 4px;cursor: pointer;}}}
+

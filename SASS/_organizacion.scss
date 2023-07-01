@@ -1,0 +1,50 @@
+.agenda {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  .agenda h2 {
+    text-align: center;
+  }
+
+  .agenda .day {
+    margin-bottom: 20px;
+  }
+
+  .agenda .day .date {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .agenda .day .activities {
+    margin-left: 20px;
+  }
+
+  .agenda .day .activities ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .agenda .day .activities textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    resize: vertical;
+  }
+
+  .agenda .day .activities button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .agenda .day .activities button:hover {
+    background-color: #45a049;
+  }

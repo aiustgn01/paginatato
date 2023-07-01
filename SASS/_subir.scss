@@ -1,0 +1,9 @@
+.formulario-pc{
+    border: 2px solid black;
+    width: 50vh;
+    margin: auto;
+    margin-top: 20px;
+    form{display: flex;flex-direction: column;
+    padding: 20px;
+    input,textarea{padding: 15px; width: 80%;height: 10%;margin: 5px;border: 2px solid black;}
+}}
