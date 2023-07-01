@@ -344,6 +344,9 @@ header .contenedor-subir {
     width: 80vw;
     height: 40vh;
   }
+  .notas {
+    width: 90vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
