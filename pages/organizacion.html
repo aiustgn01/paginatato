@@ -1,118 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="contenedor-logo">
-            <a href="../index.html"><img class="logo-imagen" src="../images/LOGO-EMERPC1.png"></a>
-            <p class="logo-texto"> EmerPC - Claudio Pasutti Informática</p>
-        </div>
-        <div class="contenedor-botones">
-            <a href="../index.html"><p class="boton-header">Inicio</p></a>
-            <a href="../pages/actuales.html"><p class="boton-header">Equipos actuales</p></a>
-            <a href="../pages/historial.html"><p class="boton-header">Historial</p></a>
-            <a href="../pages/organizacion.html"><p class="boton-header">Informacion/Organizacion</p></a>
-        </div>
-        <div class="contenedor-cuenta">
-           <a href="../pages/login.html"> <p>Iniciar sesion</p></a>
-             <p>No has iniciado sesion</p>
-                <a> <p><strong> Bienvenido Tato/Agus/Rita</strong></p> </a>
-        </div>
-        <div class="contenedor-subir">
-            <a href="../pages/subir.html"> <p>Ingresar una pc nueva</p></a>
-             <button>Subir</button>
-                
-         </div>
+      <div class="contenedor-logo">
+        <a href="../index.html"
+          ><img class="logo-imagen" src="../images/LOGO-EMERPC1.png"
+        /></a>
+        <p class="logo-texto">EmerPC - Claudio Pasutti Informática</p>
+      </div>
+      <div class="contenedor-botones">
+        <a href="../index.html"><p class="boton-header">Inicio</p></a>
+        <a href="../pages/actuales.html"
+          ><p class="boton-header">Equipos actuales</p></a
+        >
+        <a href="../pages/historial.html"
+          ><p class="boton-header">Historial</p></a
+        >
+        <a href="../pages/organizacion.html"
+          ><p class="boton-header">Informacion/Organizacion</p></a
+        >
+      </div>
+      <div class="contenedor-cuenta">
+        <a href="../pages/login.html"> <p>Iniciar sesion</p></a>
+        <p>No has iniciado sesion</p>
+        <a>
+          <p><strong> Bienvenido Tato/Agus/Rita</strong></p>
+        </a>
+      </div>
+      <div class="contenedor-subir">
+        <a href="../pages/subir.html"> <p>Ingresar una pc nueva</p></a>
+        <button>Subir</button>
+      </div>
     </header>
     <main>
-        <div class="agenda">
-            <h2>Agenda Diaria</h2>
+      <div class="agenda">
+        <h2>Agenda Diaria</h2>
+
+        <div class="day">
+          <div class="date">Fecha: 30 de Junio de 2023 (fecha del dia)</div>
+          <div class="activities">
+            <h2>
+              Esta parte sería para agregar las cosas realizadas ese dia
+              (principalmente para organizarnos rita y yo)
+            </h2>
+            <textarea placeholder="Agregar actividades realizadas"></textarea>
+            <h2>Seleccionar turno:</h2>
+            <div class="selector-turno">
+                
+                <div class="checkbox-turno">
+            <h3>Mañana</h3><input type="checkbox">
+                </div>
+                <div class="checkbox-turno">
+                    <h3>Tarde</h3>
+            <input type="checkbox">
+        </div>
+          </div>
+            <button>Agregar actividad</button>
+          </div>
+        </div>
+
+        <div class="calendario">
+          <h2>Calendario</h2>
+          <h3>(Apoyando el mouse/tocando se verían las notas de cada dia)</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Do</th>
+                <th>Lu</th>
+                <th>Ma</th>
+                <th>Mié</th>
+                <th>Jue</th>
+                <th>Vi</th>
+                <th>Sá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+              </tr>
+              <!-- Resto de filas y días del calendario -->
+            </tbody>
+          </table>
+        </div>
         
-            <div class="day">
-              <div class="date">Fecha: 30 de Junio de 2023 (fecha del dia)</div>
-              <div class="activities">
-              <h2>Esta parte sería para agregar las cosas realizadas ese dia (principalmente para organizarnos rita y yo)</h2>
-                <textarea placeholder="Agregar actividades realizadas"></textarea>
-                <button>Agregar actividad</button>
-              </div>
-            </div>
-
-            <div class="calendario">
-                <h2>Calendario</h2>
-                <h3>(Apoyando el mouse/tocando se verían las notas de cada dia)</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Do</th>
-                      <th>Lu</th>
-                      <th>Ma</th>
-                      <th>Mié</th>
-                      <th>Jue</th>
-                      <th>Vi</th>
-                      <th>Sá</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                      </tr>
-                      <tr>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                      </tr>
-                      <tr>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                        <td>21</td>
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                      </tr>
-                      <tr>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
-                        <td>31</td>
-                      </tr>
-                    <!-- Resto de filas y días del calendario -->
-                  </tbody>
-                </table>
-              </div>
-  
-
+      </div>
+      <div class="notas">
+        <div class="dia">
+          <h1><u>01/07/23</u></h1>
+          <div class="turnos"> <div class="turno">
+            <h2>MAÑANA</h2>
+            <p>
+              -Queda bisagra de naiman para arreglar <br />
+              -entregada compu de udrizar <br />
+              -descargamos autocad 24 en el servidor
+            </p>
+          </div>
+          <div class="turno">
+            <h2>TARDE</h2>
+            <p>
+              -hecha instalacion basica de gonzales <br />-cerrada y lista
+              para entregar compu de gallegos <br />
+              -queda descargandose el lumion 13
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="dia">
+          <h1><u>02/07/23</u></h1>
+          <div class="turnos">
+        <div class="turno">
+          <h2> MAÑANA</h2>
+          <p>
+            -Queda bisagra de naiman para arreglar <br />
+            -entregada compu de udrizar <br />
+            -descargamos autocad 24 en el servidor
+          </p>
+        </div>
+        <div class="turno">
+          <h2> TARDE</h2>
+          <p>
+            -hecha instalacion basica de gonzales <br />-cerrada y lista para
+            entregar compu de gallegos <br />
+            -queda descargandose el lumion 13 <br>
+          </p>
+        </div>
+      </div>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
