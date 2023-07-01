@@ -49,8 +49,14 @@ header .contenedor-subir {
   background-color: inherit;
 }
 header .contenedor-subir button {
-  background-color: grey;
+  background-color: rgb(97, 181, 153);
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
   border-radius: 4px;
+}
+header .contenedor-subir button:hover {
+  background-color: rgb(85, 158, 134);
   cursor: pointer;
 }
 
@@ -201,7 +207,7 @@ header .contenedor-subir button {
 }
 
 .agenda {
-  width: 600px;
+  width: 60vw;
   margin: 0 auto;
   margin-top: 50px;
   border: 2px solid black;
@@ -239,15 +245,58 @@ header .contenedor-subir button {
 }
 
 .agenda .day .activities button {
-  background-color: #4CAF50;
+  background-color: rgb(97, 181, 153);
   color: #ffffff;
   padding: 8px 12px;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .agenda .day .activities button:hover {
-  background-color: #45a049;
+  background-color: rgb(85, 158, 134);
+}
+
+.calendario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.calendario table {
+  width: 80%;
+}
+.calendario table tbody tr td {
+  border: 2px solid black;
+  width: 20px;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .contenedor-logo {
+    flex-direction: column;
+    width: 20vh;
+    border-bottom: 2px solid black;
+  }
+  header .contenedor-botones {
+    flex-direction: column;
+    border-bottom: 2px solid black;
+  }
+  header .contenedor-cuenta {
+    border-bottom: 2px solid black;
+  }
+  header .contenedor-subir {
+    border-bottom: 2px solid black;
+  }
+  .agenda {
+    width: 90vw;
+  }
+  .caja-login {
+    width: 80vw;
+    height: 40vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

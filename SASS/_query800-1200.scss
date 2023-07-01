@@ -1,0 +1,12 @@
+@media (max-width:800px){
+    header{
+        .contenedor-logo{flex-direction: column;width:20vh;border-bottom: 2px solid black;}
+        .contenedor-botones{flex-direction: column;border-bottom: 2px solid black;}
+        .contenedor-cuenta{border-bottom: 2px solid black;}
+        .contenedor-subir{border-bottom: 2px solid black;}
+        display: flex;
+        flex-direction: column;
+    }
+    .agenda{width: 90vw;}
+    .caja-login{width: 80vw;height: 40vh;}
+}
